@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: black;
+    padding: 30px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opcoes-header {
+    display: flex;
+    align-items: center;
+}
+
+.navigation a {
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: white;
+    margin-right: 20px;
+}
+
+img{
+    padding: 1%;
+    width: 50px;
+    height: 40px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.quarto_bloco {
+    margin: 12vh 0 0 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .quem_somos h2 {
+    padding: 0;
+    font-size: 50px;
+    text-align: center;
+    color: #4889d3;
+    font-weight: 700;
+  }
+  
+  .quem_somos hr {
+    width: 37vw;
+    border-radius: 10%;
+    border: none;
+    border-bottom: 5px solid #4889d3;
+    margin: auto;
+    margin-bottom: 5vh;
+  }
+  
+  #ultima_linha{
+    width: 37vw;
+    border-radius: 10%;
+    border: none;
+    border-bottom: 5px solid #943203;
+    margin: auto;
+    margin: 5vh 0;
+  }
+  
+  .imagens_pessoas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 55vw;
+    margin: auto;
+  }
+  
+  .imagens_aluno {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+    margin: 1vw;
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+  }
+  
+  .imagens_aluno:hover {
+    box-shadow: 0 0 10px 1px #03a41b;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+  }
+  
+  dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  dialog {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  dialog h3 {
+    font-size: 25px;
+  }
+  
+  .imagem_modal {
+    width: 10vw;
+    height: 20vh;
+    border-radius: 50%;
+    margin: 1vw;
+  }
+  
+  dialog p {
+    display: flex;
+    max-width: 30vw;
+    padding: 2vw;
+    text-align: justify;
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  #fechar1, #fechar2, #fechar3, #fechar4, #fechar5, #fechar6, #fechar7, #fechar8 {
+    width: 8vw;
+    height: 5vh;
+    border: 0;
+    background-color: rgb(3, 128, 7);
+    color: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+    margin: 1vw;
+  }
+  
+  #fechar1:hover, #fechar2:hover, #fechar3:hover, #fechar4:hover, #fechar5:hover, #fechar6:hover, #fechar7:hover,#fechar8:hover{
+    border: #000000;
+    background-color: rgb(216, 71, 43);
+    color: #FFFFFF;
+  }
+  
+  
+  @media only screen and (max-width: 1023px){
+    header{
+      display: none;
+    }}
